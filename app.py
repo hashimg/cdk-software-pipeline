@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import os
 import aws_cdk as cdk
-from cdk_software_pipeline.cdk_stack import CdkSofrwarePipelineStack
+from cdk_software_pipeline.cdk_stack import CdkSoftwarePipelineStack
 
 app = cdk.App()
-CdkSofrwarePipelineStack(app, "CdkSoftwarePipelineStack")
+CdkSoftwarePipelineStack(app, "CdkSoftwarePipelineStack")
 app.synth()

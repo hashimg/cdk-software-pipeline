@@ -13,7 +13,7 @@ from aws_cdk import (
 from constructs import Construct
 import os
 
-class CdkSofrwarePipelineStack(Stack):
+class CdkSoftwarePipelineStack(Stack):
 
     @property
     def vpc(self):
